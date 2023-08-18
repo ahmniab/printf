@@ -8,7 +8,7 @@
 #include <unistd.h>
 #include <limits.h>
 
-
+int _printf(const char *format, ...);
 
 
 
