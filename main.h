@@ -25,9 +25,21 @@ int (*f)(va_list);
 int _putchar(char c);
 int _puts(char *p);
 int _print_TYPE(char *s, va_list ap);
-int _specifier(char *s);
+int (*_specifier(char *))(char *s);
 int _printf(const char *format, ...);
-
-
+int print_percent(va_list);
+int print_char(va_list);
+int print_string(va_list);
+int print_int(va_list);
+int print_int(va_list);
+int print_unsigned(va_list);
+int print_octal(va_list);
+int print_rot_13(va_list);
+int print_rev(va_list);
+int print_S(va_list);
+int print_address(va_list);
+int print_HEX(va_list);
+int print_hex(va_list);
+int print_binary(va_list);
 
 #endif

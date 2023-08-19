@@ -2,5 +2,6 @@
 
 int main()
 {
-	_printf("asdjtfjfkyg\\tufj");
+	int a = 77657564;
+	_printf("jh,,j%djhgkjhg",a);
 }
