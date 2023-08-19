@@ -8,6 +8,24 @@
 #include <unistd.h>
 #include <limits.h>
 
+/**
+ * struct specifier - to take the Type that will be printed
+ * @specifier: Type of format
+ * @f: the function that will be excuted
+ *
+ */
+
+typedef struct specifier
+{
+char *specifier; /* array to take the format */
+int (*f)(va_list);
+} TYPE;
+
+
+int _putchar(char c);
+
+
+
 int _printf(const char *format, ...);
 
 
