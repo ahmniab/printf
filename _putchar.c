@@ -10,3 +10,29 @@ int _putchar(char c)
 {
 	return (write(1, &c, 1));
 }
+
+
+
+
+/**
+ * _puts - print string
+ *
+ * @p: string to print
+ *
+ * Return: numbers of char
+ */
+
+
+int _puts(char *p)
+{
+	char *tmp = p;
+
+	while (*p)
+	{
+		_putchar(*p);
+		p++;
+	}
+
+	return (p - tmp);/*to return the lenth of what printed*/
+}
+
