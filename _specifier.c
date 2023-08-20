@@ -37,13 +37,6 @@ int (*_specifier(char *s))(va_list ap)
 	return (NULL);
 }
 
-/**
- *
- *
- *
- *
- *
- */
 
 
 int _print_TYPE(char *s, va_list ap)

@@ -14,14 +14,14 @@ int _printf(const char *format, ...)
 	va_list ap;
 	int sum = 0;
 	char *p;
-	 va_start(ap, format);
+	va_start(ap, format);
 
 	if (!format || (format[0] == '%' && !format[1]))
 		return (-1);
 	if (format[0] == '%' && format[1] == ' ' && !format[2])
 		return (-1);
 
-	for (p = (char *) format; *p; p++)
+	for (p = (char *)format; *p; p++)
 	{
 		if (*p != '%')
 		{
@@ -36,8 +36,4 @@ int _printf(const char *format, ...)
 
 	va_end(ap);
 	return (sum);
-
-	}
-
-
-
+}

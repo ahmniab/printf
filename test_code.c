@@ -2,7 +2,7 @@
 
 int main()
 {
-	char *a = "Mohamed ";
+	char *a = "Mohamed \n";
 	_printf("%s",a);
 	return (0);
 }
