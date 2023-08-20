@@ -2,6 +2,7 @@
 
 int main()
 {
-	int a = 77657564;
-	_printf("jh,,j%djhgkjhg",a);
+	char *a = "Mohamed ";
+	_printf("%s",a);
+	return (0);
 }

@@ -12,20 +12,20 @@ int (*_specifier(char *s))(va_list ap)
 	int i;
 	TYPE spec[] = {
 
-		//{"c", print_char},
-		//{"s", print_string},
+		{"c", print_char},
+		{"s", print_string},
 		{"d", print_int},
 		{"i", print_int},
-		//{"u", print_unsigned},
-		//{"o", print_octal},
-		//{"R", print_rot_13},
-		//{"r", print_rev},
-		//{"S", print_S},
-		//{"p", print_address},
-		//{"X", print_HEX},
-		//{"x", print_hex},
-		//{"b", print_binary},
-		//{"%", print_percent},
+		/*{"u", print_unsigned},
+		*{"o", print_octal},
+		*{"R", print_rot_13},
+		*{"r", print_rev},
+		*{"S", print_S},
+		*{"p", print_address},
+		*{"X", print_HEX},
+		*{"x", print_hex},
+		*{"b", print_binary},
+		*{"%", print_percent},*/
 		{NULL, NULL}
 	};
 	
