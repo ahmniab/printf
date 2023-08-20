@@ -25,7 +25,7 @@ int (*f)(va_list);
 int _putcharr(char c);
 int _puts(char *p);
 int _print_TYPE(char *s, va_list ap);
-int (*_specifier(char *))(char *s);
+int (*_specifier(char *))(va_list ap);
 int _printf(const char *format, ...);
 
 /*function types*/
