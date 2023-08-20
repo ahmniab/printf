@@ -18,7 +18,7 @@ int print_int(va_list ap)
 
     if (num < 0)
     {
-        _putchar('-'); /* Print minus sign for negative numbers*/
+        _putcharr('-'); /* Print minus sign for negative numbers*/
         sum++;
         num = -num;
     }
@@ -41,7 +41,7 @@ int print_int(va_list ap)
     for (i = 0; i < digits; i++)
     {
         sum++;
-        _putchar(digitArray[i] + '0'); /* Convert digit to character and print*/
+        _putcharr(digitArray[i] + '0'); /* Convert digit to character and print*/
     }
 
     return sum;
@@ -61,7 +61,7 @@ int print_char(va_list ap)
 
         char ch;
         ch = va_arg(ap, int);
-        _putchar(ch);
+        _putcharr(ch);
         count++;
 
         return (count);

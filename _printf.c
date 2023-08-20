@@ -26,7 +26,7 @@ int _printf(const char *format, ...)
 		if (*p != '%')
 		{
 			sum += 1;
-			_putchar(*p);
+			_putcharr(*p);
 			continue;
 		}
 		p++;

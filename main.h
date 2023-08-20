@@ -22,7 +22,7 @@ int (*f)(va_list);
 } TYPE;
 
 /*main function*/
-int _putchar(char c);
+int _putcharr(char c);
 int _puts(char *p);
 int _print_TYPE(char *s, va_list ap);
 int (*_specifier(char *))(char *s);
